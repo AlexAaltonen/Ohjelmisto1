@@ -1,0 +1,11 @@
+import math
+from idlelib.configdialog import font_sample_text
+
+ympyran_sade = input("Syötä ympyrän säde: ")
+sivun_pituus = input ("Syötä neliön sivun pituus: ")
+
+ympyra_ala = math.pi * float(ympyran_sade)**2
+nelio_ala = float(sivun_pituus)**2
+
+print(f"Ympyrän pinta-ala on {ympyra_ala:.2f}")
+print(f"Neliön pinta-ala on {nelio_ala:.2f}")
