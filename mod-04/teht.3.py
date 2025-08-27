@@ -12,3 +12,5 @@ while luku != "":
 else:
     print(f"suurin luku: {suurin}")
     print(f"pienin luku: {pienin}")
+
+
