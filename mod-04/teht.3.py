@@ -6,7 +6,7 @@ suurin = int(luku)
 while luku != "":
     if pienin > int(luku):
         pienin = int(luku)
-    else:
+    if suurin < int(luku):
         suurin = int(luku)
     luku = input("kirjoita luku: ")
 else:
