@@ -3,7 +3,7 @@ def parillinen(x):
 
 
 
-alkuperainen_lista=[1, 2, 3 ,4]
+alkuperainen_lista=[1, 2, 3 ,4, 5, 6]
 
 print(parillinen(alkuperainen_lista))
 
