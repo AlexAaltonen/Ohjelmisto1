@@ -2,7 +2,7 @@ import mysql.connector
 from geopy import distance
 
 #Muistiinpanot
-#fetchall ei toimi vaikka se antaa vain yhden arvon sillä se luo listan
+#fetchall ei toimi vaikka se antaa vain yhden arvon sillä se luo listan tuple (lista jonka arvoa ei voi muuttaa)
 #geopy distance vaatii tupleja eikä listoja
 
 
